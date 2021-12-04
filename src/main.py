@@ -1,7 +1,9 @@
 import json
 import time
 
-from src import crypt
+import sys
+sys.path.insert(0, '../src')
+import crypt
 import requests
 
 # Config
